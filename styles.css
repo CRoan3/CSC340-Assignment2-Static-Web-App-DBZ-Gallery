@@ -130,6 +130,22 @@ main {
   color: #f28c18;
 }
 
+.about-page {
+  max-width: 900px;
+}
+
+.about-page h1 {
+  color: #f28c18;
+}
+
+.about-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
 button {
   margin-top: 22px;
   padding: 12px 20px;
