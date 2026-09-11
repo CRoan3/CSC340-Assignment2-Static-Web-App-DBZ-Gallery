@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a Character</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Dragon Ball Character Gallery</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="details.html">Details</a>
+        <a href="about.html">About</a>
+        <a href="new-character-form.html">Add Character</a>
+      </nav>
+    </header>
+
+    <main class="form-page">
+      <h1>Add a New Character</h1>
+
+      <p>
+        Enter information for a character you would like to add to the gallery.
+        This form is currently for display only.
+      </p>
+
+      <form>
+        <label for="name">Character Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Example: Piccolo"
+        />
+
+        <label for="universe">Universe</label>
+        <input
+          type="text"
+          id="universe"
+          name="universe"
+          placeholder="Example: Dragon Ball"
+        />
+
+        <label for="role">Role</label>
+        <input
+          type="text"
+          id="role"
+          name="role"
+          placeholder="Example: Warrior"
+        />
+
+        <label for="image-url">Image URL</label>
+        <input
+          type="url"
+          id="image-url"
+          name="image-url"
+          placeholder="https://example.com/character.jpg"
+        />
+
+        <label for="description">Short Description</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="6"
+          placeholder="Enter a description of the character..."
+        ></textarea>
+
+        <button type="submit">Add Character</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Dragon Ball Character Gallery - Christopher Roan © 2026</p>
+    </footer>
+  </body>
+</html>

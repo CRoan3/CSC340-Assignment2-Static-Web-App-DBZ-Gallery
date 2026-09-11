@@ -146,6 +146,40 @@ main {
   margin-bottom: 25px;
 }
 
+.form-page {
+  max-width: 700px;
+}
+
+.form-page h1 {
+  color: #f28c18;
+}
+
+form {
+  background-color: #1b2335;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #39445c;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+}
+
 button {
   margin-top: 22px;
   padding: 12px 20px;
